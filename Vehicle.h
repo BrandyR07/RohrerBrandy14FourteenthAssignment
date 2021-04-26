@@ -3,9 +3,9 @@
 
 using namespace std;
 
-class Vehicle
+class Vehicle // Base class
 {
-private:
+private: 
 	int yearBuilt;
 	string manufacturer;
 

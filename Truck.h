@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Truck : public Vehicle
+class Truck : public Vehicle //Declare truck derived class
 {
 private:
 	int towingCapacity;

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Car : public Vehicle
+class Car : public Vehicle //Declare car class as a derived class from vehicle
 {
 private:
 	int numberOfDoors;

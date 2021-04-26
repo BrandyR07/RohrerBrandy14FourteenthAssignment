@@ -15,6 +15,7 @@ int main()
 	Car car;
 	Truck truck;
 
+	//Test Vehcile class
 	cout << "Vehicle:" << endl;
 	cout << "Enter the manufacturer: ";
 	getline(cin, manufacturer);
@@ -26,6 +27,7 @@ int main()
 	cout << endl;
 	cin.ignore();
 
+	//Test Car class
 	cout << "Car:" << endl;
 	cout << "Enter the manufacturer: ";
 	getline(cin, manufacturer);
@@ -35,12 +37,12 @@ int main()
 	cin >> doors;
 	car.setmanufacturer(manufacturer);
 	car.setyearBuilt(yearBuilt);
-	//Car automobile(doors);
 	car.setnumberOfDoors(doors);
 	car.displayInfoCar();
 	cout << endl;
 	cin.ignore();
 
+	//Test truck class
 	cout << "Truck:" << endl;
 	cout << "Enter the manufacturer: ";
 	getline(cin, manufacturer);
