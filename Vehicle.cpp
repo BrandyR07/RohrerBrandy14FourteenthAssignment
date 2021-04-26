@@ -32,6 +32,7 @@ void Vehicle::setmanufacturer(string name)//Function to set manfacturer
 
 void Vehicle::displayInfo()//Funtion to display vehicle information
 {
+	cout << "Vehicle Information:" << endl;
 	cout << "Manufacturer: " << manufacturer << endl;
 	cout << "Year Built: " << yearBuilt << endl;
 }
