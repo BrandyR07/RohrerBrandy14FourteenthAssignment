@@ -11,7 +11,6 @@ private:
 
 public:
 	Vehicle();
-	Vehicle(string, int);
 	int getyearBuilt();
 	void setyearBuilt(int);
 	string getmanufacturer();

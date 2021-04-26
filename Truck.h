@@ -13,7 +13,6 @@ private:
 public:
 
 	Truck();
-	Truck(int);
 	int gettowingCapacity();
 	void settowingCapacity(int);
 	void truckDisplayInfo();
